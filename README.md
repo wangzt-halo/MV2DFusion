@@ -2,7 +2,7 @@
 <h1>MV2DFusion</h1>
 </div>
 
----
+
 
 This repo is the official PyTorch implementation for paper: 
 [MV2DFusion](https://arxiv.org/abs/2408.05945)
@@ -11,7 +11,7 @@ The rise of autonomous vehicles has significantly increased the demand for robus
 
 ## Preparation
 
----
+
 ### Environment
 - Linux
 - Python == 3.8.10
@@ -88,7 +88,7 @@ After preparation, you will be able to see the following directory structure:
 
 ## Train & Inference
 
----
+
 You can train the model following:
 ```bash
 bash tools/dist_train.sh projects/configs/nusc/mv2dfusion-fsd_freeze-r50_1600_gridmask-ep24_nusc.py 8 
@@ -102,7 +102,7 @@ bash tools/dist_test.sh projects/configs/nusc/mv2dfusion-fsd_freeze-r50_1600_gri
 
 ## Main Results
 
----
+
 ### nuScenes validation set
 |                                                  config                                                  |  NDS  |  mAP  |  checkpoint  |
 |:--------------------------------------------------------------------------------------------------------:|:-----:|:-----:|:------------:|
@@ -122,7 +122,7 @@ bash tools/dist_test.sh projects/configs/nusc/mv2dfusion-fsd_freeze-r50_1600_gri
 
 ## Acknowledgement
 
----
+
 Many thanks to the awesome open-sourced projects:
 - [MMDetection3D](https://github.com/open-mmlab/mmdetection3d)
 - [SST](https://github.com/tusen-ai/SST/tree/main)
@@ -130,7 +130,7 @@ Many thanks to the awesome open-sourced projects:
 
 ## Citation
 
----
+
 If you find this repo useful for your research, please consider citing:
 ```
 @article{wang2024mv2dfusion,
@@ -150,5 +150,5 @@ If you find this repo useful for your research, please consider citing:
 
 ## Contact
 
----
-For questions about our paper or code, please contact **Zitian Wang** (wangzt.kghl@gmail.com).
+
+For questions about our paper or code, please contact Zitian Wang (wangzt.kghl@gmail.com).
