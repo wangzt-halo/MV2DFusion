@@ -35,9 +35,7 @@ pip install refile                    # 0.4.1
 pip install spconv-cu113              # 2.3.6
 pip install flash-attn                # 1.0.2
 pip install torch-scatter             # 2.1.2
-git clone https://github.com/Abyssaledge/TorchEx.git
-cd TorchEx/
-pip install -e . && cd ..
+pip install git+https://github.com/Abyssaledge/TorchEx.git
 ```
 
 ### Data Processing   
