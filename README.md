@@ -41,7 +41,7 @@ pip install -e . && cd ..
 ```
 
 ### Data Processing   
-Follow [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/data_preparation.md) and [streampetr](https://github.com/exiawsh/StreamPETR) to process datasets.
+Follow [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/data_preparation.md)/[streampetr](https://github.com/exiawsh/StreamPETR)/[far3d](https://github.com/megvii-research/Far3D) to process datasets.
 You can also process the datasets using the scripts under `tools/`.
 
 ### Pretrained Weights   
