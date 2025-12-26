@@ -53,7 +53,6 @@ We also provide the pretrained weights that can be downloaded from [[google driv
 After preparation, you will be able to see the following directory structure:  
   ```
   MV2D
-  ├── configs/
   ├── projects/
   ├── tools/
   ├── data/
